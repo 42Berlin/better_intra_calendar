@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  calendar:
+    build:
+      context: .
+    container_name: calendar
+    hostname: calendar
+    ports:
+      - "4233:4233"
+    restart: unless-stopped
+    volumes:
+      - .:/app

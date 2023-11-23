@@ -1,0 +1,15 @@
+ssl/*.crt
+ssl/*.key
+
+.google-creds.json
+*.swp
+
+.env
+
+user_data.json
+
+*.log
+
+*test*
+
+__pycache__
